@@ -8,6 +8,7 @@ switch(data){
     taskTwo();
     break;
   case("3"):
+  	taskThree();
     break;
   default:
     alert('Not number task!!!');        
@@ -53,4 +54,3 @@ function taskThree() {
 	}
 	alert ( pow (x, n) );
 }
-taskThree();
